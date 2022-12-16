@@ -14,6 +14,7 @@ alias listcaches="ls ~/Library/Caches"
 alias c="clear"
 alias omp="/opt/homebrew/opt/gcc/bin/c++-12 -fopenmp"
 alias newcourse="bash ~/shell/sh-scripts/newcourse.sh"
+alias mpdf="gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=merged.pdf"
 
 setopt HIST_IGNORE_ALL_DUPS
 
