@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import subprocess
 # Create .vim folder structure
 subprocess.run(['mkdir', '-p', '~/.vim', '~/.vim/autoload', '~/.vim/backup', '~/.vim/colors', '~/.vim/plugged'])
