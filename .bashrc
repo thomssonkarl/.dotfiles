@@ -27,6 +27,7 @@ alias gb='git branch'
 alias gP='git push'
 alias gp='git pull'
 alias gs='git status -s'
+alias ls='ls --color'
 
 alias ta="tmux a"
 alias tm="tmux"
