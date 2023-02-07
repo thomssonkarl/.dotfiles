@@ -10,6 +10,8 @@ My dotfiles
 
 `$ ./install.py`
 
+`$ source ~/.bashrc`
+
 **From vim command:** `:!PlugInstall`
 
 
