@@ -15,6 +15,8 @@ parse_git_branch() {
 
 export PS1='\[\e[32m\]\u@\h\[\e[0m\] \[\e[34m\]\W\[\e[0m\] $(parse_git_branch)'
 
+bind TAB:menu-complete
+
 ## Exports
 export EDITOR='vim'
 export MANPAGER="vim -M +MANPAGER -"
