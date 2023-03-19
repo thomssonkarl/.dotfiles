@@ -96,6 +96,11 @@ set statusline+=\ row:\ %l\ col:\ %c\ ascii:\ %b\
 " " Show the status on the second to last line.
 set laststatus=2
 
+augroup WrapLineInTeXFile
+          autocmd!
+          autocmd FileType tex setlocal wrap
+augroup END
+
 "------------------------ Remaps ---------------------------
 
 
