@@ -1,14 +1,11 @@
 # .dotfiles
 My dotfiles
 
-# Install bash and vim config on remote server
-**Note:** The installation script `install.py` expects the dotfiles repository to live inside the home directory.
+# Installation
 
-`$ git clone git@github.com:thomssonkarl/.dotfiles.git ~/dotfiles`
+`git clone git@github.com:thomssonkarl/.dotfiles.git ~/dotfiles`
 
-`$ chmod +x ~/dotfiles/install.py`
+`chmod +x ~/dotfiles/install.sh`
 
-`$ ./install.py`
-
-`$ source ~/.bashrc`
+`./install.sh`
 
