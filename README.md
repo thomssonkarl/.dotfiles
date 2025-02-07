@@ -12,7 +12,3 @@ My dotfiles
 
 `$ source ~/.bashrc`
 
-**From vim command:** `:!PlugInstall`
-
-
-![Config](config.png)
